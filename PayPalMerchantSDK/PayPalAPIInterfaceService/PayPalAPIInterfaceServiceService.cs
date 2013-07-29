@@ -10,8 +10,8 @@ using PayPal.PayPalAPIInterfaceService.Model;
 
 namespace PayPal.PayPalAPIInterfaceService 
 {
-	public partial class PayPalAPIInterfaceServiceService : BasePayPalService 
-	{
+    public partial class PayPalAPIInterfaceServiceService : BasePayPalService, IPayPalAPIInterfaceServiceService
+    {
 
 		/// <summary>
 		/// Service Version
